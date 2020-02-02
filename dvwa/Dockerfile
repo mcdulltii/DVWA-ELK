@@ -50,4 +50,6 @@ RUN cd suricata-5.0.1 && \
     make -j 4 && make install && \
     make install-conf && make install-rules && make install-full
 
+RUN echo "./start_service.sh" >> ~/.bashrc
+
 COPY ./suricata.yml.disabled /etc/filebeat/modules.d/suricata.yml.disabled
