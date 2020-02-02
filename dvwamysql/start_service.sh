@@ -1,6 +1,6 @@
-chown /etc/filebeat/filebeat.yml && \
-chown /etc/metricbeat/metricbeat.yml && \
-chown /etc/heartbeat/heartbeat.yml
+chown root /etc/filebeat/filebeat.yml && \
+chown root /etc/metricbeat/metricbeat.yml && \
+chown root /etc/heartbeat/heartbeat.yml
 
 service filebeat start && \
 service metricbeat start && \
