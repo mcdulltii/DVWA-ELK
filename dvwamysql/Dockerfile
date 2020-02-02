@@ -13,4 +13,3 @@ RUN dpkg -i /usr/share/heartbeat.deb && \
 
 RUN dpkg -i /usr/share/filebeat.deb && \
     rm /usr/share/filebeat.deb && \
-    echo "/start_service.sh" >> ~/.bashrc
