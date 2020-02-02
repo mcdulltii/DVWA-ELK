@@ -1,3 +1,8 @@
+chown /etc/packetbeat/packetbeat.yml && \
+chown /etc/filebeat/filebeat.yml && \
+chown /etc/metricbeat/metricbeat.yml && \
+chown /etc/heartbeat/heartbeat.yml
+
 service packetbeat start && \
 service filebeat start && \
 service metricbeat start && \

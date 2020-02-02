@@ -1,3 +1,7 @@
+chown /etc/filebeat/filebeat.yml && \
+chown /etc/metricbeat/metricbeat.yml && \
+chown /etc/heartbeat/heartbeat.yml
+
 service filebeat start && \
 service metricbeat start && \
 service heartbeat-elastic start && \
