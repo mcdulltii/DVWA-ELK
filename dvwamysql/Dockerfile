@@ -12,4 +12,4 @@ RUN dpkg -i /usr/share/heartbeat.deb && \
     rm /usr/share/heartbeat.deb
 
 RUN dpkg -i /usr/share/filebeat.deb && \
-    rm /usr/share/filebeat.deb && \
+    rm /usr/share/filebeat.deb
