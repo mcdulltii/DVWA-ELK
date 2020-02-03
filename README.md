@@ -1,29 +1,29 @@
 # DVWA-ELK
 
-# Features
+## Features
 - Packetbeat
 - Filebeat
 - Metricbeat
 - Heartbeat
 - Suricata
 
-# Setting up system
-```python
+## Setting up system
+```shellsession
 chmod +x ./setup.sh
 ./setup.sh
 ```
 <Run SQL commands from [Config files](https://github.com/mcdulltii/dvwa-elk#config-files)>
-```python
+```shellsession
 chmod +x ./start.sh
 ./start.sh
 ```
 
-# Logging system
+## Logging system
 - Elasticsearch
 - Logstash (Unused)
 - Kibana
 
-# Config files
+## Config files
 *.yml files are stored within dvwa/ and dvwamysql/
 
 MYSQL Database configured for dvwa-elk_dvwamysql_1 as of below:
